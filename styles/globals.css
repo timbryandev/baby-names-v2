@@ -1,0 +1,50 @@
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* min height = vh - footer margin */
+  min-height: calc(100vh - 3rem);
+  max-width: 600px;
+  margin: auto;
+}
+
+.status {
+  padding: 1rem 2rem;
+  margin: 1rem auto;
+  border-radius: 5px;
+}
+
+.status__error {
+  background: red;
+  color: white;
+}
+
+.status__success {
+  background: green;
+  color: white;
+}
+
+footer {
+  margin-top: auto;
+}
+
+section {
+  margin: 3rem auto;
+}
+
+td.info {
+  text-align: center;
+}
+
+td::first-letter {
+  text-transform: capitalize;
+}
+
+.names button {
+  background-color: var(--links) !important;
+}
+
+.names tr th:nth-of-type(3),
+.names tr td:nth-of-type(3) {
+  text-align: center;
+}
