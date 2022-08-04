@@ -27,7 +27,7 @@ export default function Home() {
       </Head>
 
       <header>
-        <h1>Names for Baby&nbsp;Bryan 2020</h1>
+        <h1>Names for Baby&nbsp;Bryan 2022</h1>
       </header>
 
       <main>
